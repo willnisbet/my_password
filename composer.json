@@ -1,0 +1,21 @@
+{
+    "name": "willnisbet/my_password",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Willnisbet\\MyPassword\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Nisbet",
+            "email": "wnisbet@schueler.hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "hackzilla/password-generator": "dev-master",
+        "cocur/slugify": "~v4.5.1"
+    }
+}
